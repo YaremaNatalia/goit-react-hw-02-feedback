@@ -1,0 +1,66 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  background-color: #9ce6f0;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.heading {
+  color: #0a0a0a;
+  font-size: 28px;
+}
+
+.feedbackList {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.feedbackButton {
+  background-color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #000;
+  font-size: 16px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.feedbackButton:hover,
+.feedbackButton:focus {
+  background-color: #141fe5;
+  color: #ffffff;
+}
+
+.statistics {
+  color: #0a0a0a;
+  font-size: 24px;
+}
+
+.statisticsList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.feedbackInfo {
+  display: flex;
+  gap: 5px;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.feedbackTitle {
+  font-weight: bold;
+}
+
+.feedbackValue {
+  color: #333;
+}
