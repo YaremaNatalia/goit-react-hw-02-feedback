@@ -1,11 +1,3 @@
-/* .statistics {
-color: #000;} */
-
-.headingStatistics {
-  color: #0a0a0a;
-  font-size: 24px;
-}
-
 .statisticsList {
   display: flex;
   flex-direction: column;
